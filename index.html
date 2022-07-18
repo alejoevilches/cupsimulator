@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts/index.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
     <title>Cup Simulator - Simulá tu torneo!</title>
 </head>
 <body>
-    
+    <nav class="nav">
+        <a class="nav__links" href="#">Reiniciar</a>
+        <img src="/img/logo.png" alt="Logo del simulador">
+        <a class="nav__links" href="#">Volver a las instrucciones</a>
+    </nav>
+    <main class="hero">
+        <h1 class="hero__title">Bienvenido al simulador de torneos</h1>
+        <h2 class="hero__description">Esta aplicación te permitirá simular cualquier tipo<br>de torneo bajo la estructura básica mas conocida<br>y difundida en el mundo (32 equipos, 8 grupos,<br>fase eliminatoria). Estas son las instrucciones para<br>su uso:</h2>
+        <ol class="hero__steps">
+            <li class="hero__step">Debes ingresar todos los equipos participantes en cada grupo.</li>
+            <li class="hero__step">Ingresá el resultado de cada partido del grupo. El sistema automaticamente calculará todas las variables</li>
+            <li class="hero__step">Una vez que están definidos todos los cruces eliminatorios podrás seleccionar quien será el vencedor de cada llave. Así hasta llegar hasta el final.</li>
+            <li class="hero__step">En cualquier momento podrás resetear el simulador para volver a arrancar, asi como también volver a ver estas instrucciones.</li>
+        </ol>
+        <a href="pages/simulator.html">
+        <button class="hero__cta">A simular!</button>
+        </a>
+    </main>
 </body>
 </html>
+

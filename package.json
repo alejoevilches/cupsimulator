@@ -1,0 +1,26 @@
+{
+  "name": "cupsimulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sasseame": "node-sass --include-path scss scss/_styles.scss css/styles.css",
+    "watcheame": "nodemon -e scss -x \"npm run sasseame\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejoevilches/cupsimulator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejoevilches/cupsimulator/issues"
+  },
+  "homepage": "https://github.com/alejoevilches/cupsimulator#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
